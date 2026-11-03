@@ -1,0 +1,173 @@
+
+.details-page {
+  background-color: #171717;
+  min-height: 100vh;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.details-card {
+  background-color: #292929;
+  border: 1px solid #3d3d3d;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.details-image {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+}
+
+.details-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: 0.4s;
+}
+
+.details-image img:hover {
+  transform: scale(1.05);
+}
+
+.details-content {
+  padding: 40px;
+}
+
+.details-category {
+  display: inline-block;
+  background-color: #ff9f1c;
+  color: #171717;
+  padding: 7px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+.details-content h2 {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.details-rating {
+  color: #ffc107;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.details-description {
+  color: #bbb;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+.details-price {
+  color: #ff9f1c;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.details-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.details-cart-btn {
+  background-color: #ff9f1c;
+  color: #171717;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.details-cart-btn:hover {
+  background-color: #e88900;
+  color: white;
+}
+
+.details-wishlist-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.details-wishlist-btn:hover {
+  background-color: #bb2d3b;
+}
+
+.details-back-btn {
+  display: block;
+  margin-top: 25px;
+  background: transparent;
+  border: 1px solid #ff9f1c;
+  color: #ff9f1c;
+  padding: 9px 18px;
+  border-radius: 7px;
+  transition: 0.3s;
+}
+
+.details-back-btn:hover {
+  background-color: #ff9f1c;
+  color: #171717;
+}
+
+.product-not-found {
+  min-height: 100vh;
+  background: #171717;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.product-not-found button {
+  background: #ff9f1c;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .details-image {
+    height: 300px;
+  }
+
+  .details-content {
+    padding: 25px;
+  }
+
+  .details-content h2 {
+    font-size: 26px;
+  }
+
+  .details-price {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .details-buttons {
+    flex-direction: column;
+  }
+
+  .details-buttons button {
+    width: 100%;
+  }
+}

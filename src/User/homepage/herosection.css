@@ -1,0 +1,90 @@
+
+.tasty-hero {
+    background: #171717;
+    padding: 75px 0;
+    overflow: hidden;
+}
+
+.hero-content {
+    padding: 25px;
+}
+
+.hero-tag {
+    display: inline-block;
+    background: rgba(255, 159, 28, 0.15);
+    color: #ff9f1c;
+    padding: 9px 18px;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-content h1 {
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.hero-content h1 span {
+    color: #ff9f1c;
+}
+
+.hero-content p {
+    color: #c5c5c5;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-top: 20px;
+    max-width: 480px;
+}
+
+.hero-btn {
+    background: #ff9f1c;
+    color: #171717;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero-btn:hover {
+    background: #e88b00;
+    transform: translateY(-3px);
+}
+
+.hero-image {
+    width: 90%;
+    max-height: 380px;
+    object-fit: cover;
+    border-radius: 25px;
+    box-shadow: 0 10px 35px rgba(255, 159, 28, 0.2);
+}
+
+@media (max-width: 768px) {
+    .tasty-hero {
+        padding: 45px 0;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 38px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-image {
+        margin-top: 35px;
+        width: 100%;
+    }
+}

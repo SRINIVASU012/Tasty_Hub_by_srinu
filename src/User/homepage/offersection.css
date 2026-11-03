@@ -1,0 +1,97 @@
+
+.offer-container {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.offer-banner {
+    background: linear-gradient(120deg, #292929, #171717);
+    border: 1px solid #ff9f1c;
+    border-radius: 18px;
+    padding: 45px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.offer-content {
+    padding: 20px;
+}
+
+.offer-tag {
+    display: inline-block;
+    background: rgba(255, 159, 28, 0.15);
+    color: #ff9f1c;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.offer-content h2 {
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.offer-content h2 span {
+    color: #ff9f1c;
+}
+
+.offer-content h4 {
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.offer-content p {
+    color: #aaa;
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 1.7;
+}
+
+.offer-btn {
+    background: #ff9f1c;
+    color: #171717;
+    border: none;
+    padding: 13px 28px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.offer-btn:hover {
+    background: #e88b00;
+    transform: translateY(-3px);
+}
+
+.offer-image {
+    width: 100%;
+    max-width: 350px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(255, 159, 28, 0.15);
+}
+
+@media (max-width: 768px) {
+    .offer-banner {
+        padding: 25px 15px;
+    }
+
+    .offer-content {
+        text-align: center;
+    }
+
+    .offer-content h2 {
+        font-size: 32px;
+    }
+
+    .offer-image {
+        margin-top: 30px;
+    }
+}

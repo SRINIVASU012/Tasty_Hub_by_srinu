@@ -1,0 +1,288 @@
+
+.tasty-cart-page {
+  background: #171717;
+  min-height: 100vh;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.tasty-cart-heading {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.tasty-cart-heading h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.tasty-cart-heading h2 span {
+  color: #ff9f1c;
+}
+
+.tasty-cart-heading p {
+  color: #aaa;
+  margin-top: 10px;
+}
+
+/* Cart cards */
+.tasty-cart-card {
+  height: 100%;
+  background: #292929;
+  border: 1px solid #3d3d3d;
+  border-radius: 14px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.tasty-cart-card:hover {
+  transform: translateY(-6px);
+  border-color: #ff9f1c;
+  box-shadow: 0 8px 20px rgba(255, 159, 28, 0.12);
+}
+
+.tasty-cart-image {
+  height: 200px;
+  overflow: hidden;
+}
+
+.tasty-cart-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: 0.4s;
+}
+
+.tasty-cart-card:hover .tasty-cart-image img {
+  transform: scale(1.06);
+}
+
+.tasty-cart-body {
+  padding: 20px;
+}
+
+.tasty-cart-body h5 {
+  font-weight: bold;
+  color: white;
+}
+
+.cart-category {
+  color: #ff9f1c;
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+.cart-price-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  color: #bbb;
+}
+
+.cart-price-row strong {
+  color: white;
+}
+
+.cart-subtotal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #444;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+.cart-subtotal span {
+  color: #bbb;
+}
+
+.cart-subtotal h5 {
+  color: #ff9f1c;
+  margin: 0;
+}
+
+.cart-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.cart-buttons button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cart-buy-btn {
+  background: #ff9f1c;
+  color: #171717;
+}
+
+.cart-buy-btn:hover {
+  background: #e88900;
+  color: white;
+}
+
+.cart-remove-btn {
+  background: #dc3545;
+  color: white;
+}
+
+.cart-remove-btn:hover {
+  background: #bb2d3b;
+}
+
+/* Total section */
+.tasty-cart-total {
+  background: #292929;
+  border: 1px solid #ff9f1c;
+  border-radius: 12px;
+  padding: 25px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.tasty-cart-total p {
+  color: #aaa;
+  margin-bottom: 5px;
+}
+
+.tasty-cart-total h2 {
+  color: #ff9f1c;
+  font-weight: bold;
+  margin: 0;
+}
+
+.tasty-cart-total button {
+  background: transparent;
+  color: #ff9f1c;
+  border: 1px solid #ff9f1c;
+  padding: 11px 20px;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+.tasty-cart-total button:hover {
+  background: #ff9f1c;
+  color: #171717;
+}
+
+/* Empty cart */
+.tasty-empty-cart {
+  background: #292929;
+  border-radius: 15px;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.empty-cart-icon {
+  font-size: 65px;
+  margin-bottom: 15px;
+}
+
+.tasty-empty-cart h3 {
+  font-weight: bold;
+}
+
+.tasty-empty-cart p {
+  color: #aaa;
+}
+
+.tasty-empty-cart button {
+  background: #ff9f1c;
+  color: #171717;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 7px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+/* Delivery modal */
+.tasty-order-modal {
+  background: #292929;
+  color: white;
+  border: 1px solid #555;
+}
+
+.tasty-order-modal .modal-header,
+.tasty-order-modal .modal-footer {
+  border-color: #444;
+}
+
+.tasty-order-modal .modal-title {
+  color: #ff9f1c;
+  font-weight: bold;
+}
+
+.modal-product-name {
+  color: #ff9f1c;
+  margin-bottom: 20px;
+}
+
+.tasty-order-modal .form-label {
+  color: white;
+}
+
+.tasty-modal-input {
+  background: #171717;
+  color: white;
+  border: 1px solid #555;
+}
+
+.tasty-modal-input:focus {
+  background: #171717;
+  color: white;
+  border-color: #ff9f1c;
+  box-shadow: 0 0 0 0.2rem rgba(255, 159, 28, 0.2);
+}
+
+.tasty-modal-input::placeholder {
+  color: #888;
+}
+
+.cart-modal-close,
+.cart-modal-order {
+  border: none;
+  padding: 9px 18px;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+.cart-modal-close {
+  background: #555;
+  color: white;
+}
+
+.cart-modal-order {
+  background: #ff9f1c;
+  color: #171717;
+}
+
+.cart-modal-order:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+  .tasty-cart-heading h2 {
+    font-size: 28px;
+  }
+
+  .tasty-cart-total {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .tasty-cart-total button {
+    width: 100%;
+  }
+}

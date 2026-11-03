@@ -1,0 +1,97 @@
+
+.tasty-navbar {
+  background: #171717;
+  padding: 15px 0;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.tasty-brand {
+  font-size: 27px;
+  font-weight: 800;
+  color: white !important;
+  letter-spacing: 0.5px;
+}
+
+.tasty-brand span {
+  color: #ff9f1c;
+}
+
+.tasty-link {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 9px 15px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.tasty-link:hover {
+  background: #333;
+  color: #ff9f1c;
+}
+
+.tasty-link.active {
+  background: #ff9f1c;
+  color: #171717;
+}
+
+.logout-btn {
+  background: #ff9f1c;
+  color: #171717;
+  border: none;
+  padding: 9px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  margin-left: 10px;
+  transition: 0.3s;
+}
+
+.logout-btn:hover {
+  background: #f18700;
+  transform: translateY(-2px);
+}
+
+.logout-btn span {
+  margin-left: 5px;
+}
+
+.navbar-toggler {
+  border: 1px solid #ff9f1c;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    align-items: stretch !important;
+    padding-top: 15px;
+  }
+
+  .tasty-link {
+    margin-bottom: 5px;
+  }
+
+  .logout-btn {
+    margin: 10px 0;
+  }
+}
+.cart-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #ff9f1c;
+  color: #171717;
+  font-size: 12px;
+  font-weight: bold;
+  min-width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 6px;
+  padding: 2px;
+}
